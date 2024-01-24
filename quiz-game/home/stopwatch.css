@@ -1,0 +1,71 @@
+body {
+    background: rgb(33, 37, 41);
+    display: block;
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0px;
+    font-size: 28px;
+  }
+
+  #reset-btn {
+    background-color:#646464;
+    color: rgb(150, 236, 65);
+    border:none; 
+    border-radius:10px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 52px;
+    width: 160px;
+    margin: 12px;
+    font-size: 28px;
+  }
+
+  #start-btn {
+    color:#0a0a23;
+    background-color: rgb(150, 236, 65);
+    border:none; 
+    border-radius:10px; 
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 52px;
+    width: 160px;
+    margin: 12px;
+    font-size: 28px;
+  }
+  
+  .title {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: rgb(150, 236, 65);
+  }
+
+  .control-panel {
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #showtime {
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 128px;
+    width: 360px;
+    font-size: 120px;
+    text-align: center;
+    color: rgb(150, 236, 65);
+  }
+
+  .watch-container {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .container {
+    justify-content: space-between;
+    height: 540px;
+  }
+  
