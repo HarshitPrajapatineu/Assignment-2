@@ -1,0 +1,186 @@
+{
+  "status": "success",
+  "message": "Your file has been successfully converted.",
+  "data": {
+    "filename": "getmarked-practice-0.docx",
+    "num_of_pages": 4.0,
+    "questions": [
+      {
+        "id": "2568481",
+        "title": "Q001 Use the following table to ans...Which is the most expensive car on the list?",
+        "category": "MCQ",
+        "stimulus": "<div> <div>Use the following table to answer the next 2 questions:</div> <table style=\"border: 1px solid #eeeeee;\"><tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Brand of Car</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Make of Car</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Cost ($)</div></td></tr><tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Toyota</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>RAV4</div></td> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>35,000</div></td></tr><tr> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Ford</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>F-Series</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>38,000</div></td></tr><tr> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Tesla</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Model 3</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>80,000</div></td></tr> <tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Honda</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Civic</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>27,600</div></td></tr></table> <div>   </div> </div>",
+        "prompt": "<div> <div> 1. Which is the most expensive car on the list? </div> </div>",
+        "answers": [
+          "c"
+        ],
+        "choices": [
+          {
+            "id": "a",
+            "content": " Toyota RAV4"
+          },
+          {
+            "id": "b",
+            "content": " Ford F-Series"
+          },
+          {
+            "id": "c",
+            "content": " Tesla Model 3"
+          },
+          {
+            "id": "d",
+            "content": " Honda Civic"
+          }
+        ],
+        "points": 1.0
+      },
+      {
+        "id": "2568482",
+        "title": "Q002 Use the following table to ans...Which are the two cheapest cars on the list?",
+        "category": "MRQ",
+        "stimulus": "<div> <div>Use the following table to answer the next 2 questions:</div> <table style=\"border: 1px solid #eeeeee;\"><tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Brand of Car</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Make of Car</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Cost ($)</div></td></tr><tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Toyota</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>RAV4</div></td> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>35,000</div></td></tr><tr> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Ford</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>F-Series</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>38,000</div></td></tr><tr> <td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Tesla</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Model 3</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>80,000</div></td></tr> <tr><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>Honda</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"> <div>Civic</div></td><td style=\"padding: 5px; border: 1px solid #eeeeee;\"><div>27,600</div></td></tr></table> <div>   </div> </div>",
+        "prompt": "<div> <div> 2. Which are the two cheapest cars on the list?</div> </div>",
+        "answers": [
+          "a"
+        ],
+        "choices": [
+          {
+            "id": "a",
+            "content": " Toyota RAV4"
+          },
+          {
+            "id": "b",
+            "content": " Ford F-Series"
+          },
+          {
+            "id": "c",
+            "content": " Tesla Model 3"
+          },
+          {
+            "id": "d",
+            "content": " Honda Civic"
+          }
+        ],
+        "metadata": {
+          "Type": "Multiple Choice",
+          "Difficulty": "Hard",
+          "category": "Apply"
+        },
+        "points": 1.0
+      },
+      {
+        "id": "2568483",
+        "title": "Q003 The diagram below shows a child's swing. The swing is releas",
+        "category": "MCQ",
+        "prompt": "<div> <div> The diagram below shows a child's swing.</div> <div> <img src=\"https://digitaliserstorage.blob.core.windows.net/media/user_upload_files/user2__tHM1uEIE/23FV0TB7_KnCXfcEGBwUKgaQUjkLuaqtFkw4IqxUj.jpg\" /> </div> <div>The swing is released from point X.</div> <div>Which movement takes one period of oscillation?</div> </div>",
+        "answers": [
+          "c"
+        ],
+        "choices": [
+          {
+            "id": "a",
+            "content": " From X to Y"
+          },
+          {
+            "id": "b",
+            "content": " From X to Z"
+          },
+          {
+            "id": "c",
+            "content": " From X to Z and back to X"
+          },
+          {
+            "id": "d",
+            "content": " From X to Z and back to Y"
+          }
+        ],
+        "points": 1.0
+      },
+      {
+        "id": "2568484",
+        "title": "Q004 Who was captain of the Titanic when it sank on April 15, 191",
+        "category": "MCQ",
+        "prompt": "<div> <div> Who was captain of the Titanic when it sank on April 15, 1912?</div> </div>",
+        "answers": [
+          "a"
+        ],
+        "choices": [
+          {
+            "id": "a",
+            "content": "  Edward Smith"
+          },
+          {
+            "id": "b",
+            "content": "  Christopher Columbus"
+          },
+          {
+            "id": "c",
+            "content": "  Jack Sparrow"
+          },
+          {
+            "id": "d",
+            "content": "  David Greene"
+          }
+        ],
+        "points": 1.0
+      },
+      {
+        "id": "2568485",
+        "title": "Q005 JSON stands for _______",
+        "category": "MCQ",
+        "prompt": "<div> <div> <math><mrow><mo stretchy=\"false\">∫</mo><mrow><mfrac><mrow><mi>x</mi><mo>+</mo><mi>   </mi><mrow><mrow><mi mathvariant=\"normal\">sin</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow><mrow><mn>1</mn><mo>+</mo><mi>   </mi><mrow><mrow><mi mathvariant=\"normal\">cos</mi></mrow><mo>⁡</mo><mrow><mi>x</mi></mrow></mrow></mrow></mfrac><mi>   </mi><mi>d</mi><mi>x</mi></mrow></mrow></math> is equal to</div> </div>",
+        "answers": [
+          "a"
+        ],
+        "choices": [
+          {
+            "id": "a",
+            "content": " JavaScript Object Notation"
+          },
+          {
+            "id": "b",
+            "content": " Java Object Notation"
+          },
+          {
+            "id": "c",
+            "content": " JavaScript Object Normalization"
+          },
+          {
+            "id": "d",
+            "content": " JavaScript Object-Oriented Notation"
+          }
+        ],
+        "points": 1.0
+      },
+      {
+        "id": "2568486",
+        "title": "Q006 Which of the following is not a type in JSON?",
+        "category": "MCQ",
+        "stimulus": "<div> <div>Select the word whose underlined part differs from the other three in pronunciation in the next 2 questions.</div> <div>   </div> </div>",
+        "prompt": "<div> <div> 6.</div> </div>",
+        "answers": [
+          "a"
+        ],
+        "choices": [
+          {
+            "id": "A",
+            "content": "Date"
+          },
+          {
+            "id": "B",
+            "content": "Object"
+          },
+          {
+            "id": "C",
+            "content": "Array"
+          },
+          {
+            "id": "D",
+            "content": "string"
+          }
+        ],
+        "points": 1.0
+      }
+    ]
+  }
+}

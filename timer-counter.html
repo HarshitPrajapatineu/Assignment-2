@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>2-Minute Countdown Timer</title>
+</head>
+
+<body>
+    <h1>2-Minute Countdown Timer</h1>
+    <p id="countdown"></p>
+    
+</body>
+<script>        
+// Set the initial time to 2 minutes (120 seconds)        
+    let timeLeft = 120;
+    function updateCountdown() {
+        if (timeLeft <= 0) {
+            document.getElementById('countdown').textContent = 'Countdown expired!';
+            clearInterval(countdownInterval);
+        } else {
+            const minutes = Math.floor(timeLeft / 60);
+            const seconds = timeLeft % 60; 
+            const countdownString = `${minutes}m ${seconds}s`;
+            document.getElementById('countdown').textContent = countdownString; 
+            timeLeft--;
+        }
+    }
+    // Initial call to display the countdown immediately        
+    updateCountdown();
+    // Update the countdown every second        
+    const countdownInterval = setInterval(updateCountdown, 1000);    
+</script>
+</html>
