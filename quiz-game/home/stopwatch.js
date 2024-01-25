@@ -24,13 +24,6 @@ function timer() {
       document.getElementById('start-btn').textContent = startStr;
     }
   
-    function displayTimer() {
-        minStr = min; // display substring
-        secStr = sec; // display substring
-      const stopWatchStr = sec < 10 ? `0${min}:0${sec}` : `0${min}:${sec}`;
-      document.getElementById('showtime').textContent = stopWatchStr;
-    }
-  
     function updateTimer() {
       if (sec >= 59) {
         min ++;
@@ -38,7 +31,7 @@ function timer() {
       } else {
         sec++;
       }
-      displayTimer();
+      displayTimer(min, sec);
     }
   
     function resetTimer() {
@@ -47,7 +40,7 @@ function timer() {
       sec = 0;
       min = 0;
       clearInterval(stopWatch);
-      displayTimer();
+      displayTimer(min, sec);
     }
   
     function stopTimer() {
@@ -78,6 +71,13 @@ function timer() {
     } else {
       t.stopTimer();
     }
+  }
+  
+  function displayTimer(m, s) {
+      minStr = m < 10 ? `0${min}` : `${min}`; // display substring
+      secStr = s < 10 ? `0${sec}` : `${sec}`; // display substring
+    const stopWatchStr = `${minStr}:${secStr}`;
+    document.getElementById('showtime').textContent = stopWatchStr;
   }
 
   function handleResetClick() {
