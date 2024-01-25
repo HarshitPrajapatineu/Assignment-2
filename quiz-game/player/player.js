@@ -153,11 +153,12 @@ function handleNextButton(timeUp = false) {
     console.log("122" + currQUestion);
     tim.resetTimer();
     showQuestion();
+    tim.startTimer();
   } else {
     if (timeUp) {
+      tim.stopTimer();
       alert("Time Up!!");
     }
-    tim.stopTimer();
     handleSubmitButton(true);
   }
 }
@@ -209,8 +210,8 @@ function timer(t) {
     if (sec < 0) {
       attemptHistory[currQUestion] = 'NA'
       displayCorrectAnswer();
-      handleNextButton(true);
       resetTimer();
+      handleNextButton(true);
     } else {
       displayTimer();
     }
@@ -221,7 +222,7 @@ function timer(t) {
     clearInterval(countdown);
     sec = t;
     displayTimer();
-    startTimer();
+    // startTimer();
   }
 
   function stopTimer() {
